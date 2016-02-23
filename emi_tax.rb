@@ -81,7 +81,7 @@ puts "---------------------------";
 	@@int_per_mon=(@@rate*@@amount).ceil
 	
 	 @@amount = ((@@amount) - ((@@emi) - (@@int_per_mon)));
-	puts "#{i}Balance/M #{@@amount.ceil} I/M #{@@int_per_mon.ceil} A/M #{(@@emi-@@int_per_mon).ceil} "
+	puts "#{i}EMI  #{@@amount.ceil} Interest #{@@int_per_mon.ceil} Amount  #{(@@emi-@@int_per_mon).ceil} "
 	end
 
 end
